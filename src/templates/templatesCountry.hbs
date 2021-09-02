@@ -1,0 +1,13 @@
+<h2 class="country_title">{{name}}</h2>
+<div class="container">
+  <ul class="country_list">
+    <li>Capital: {{capital}}</li>
+    <li>Population: {{population}}</li>
+    <li>Languages: {{languages}}</li>
+    <ul>
+      {{#each languages}}
+      <li>{{name}}</li>
+      {{/each}}
+    </ul>
+  </ul>
+</div>
